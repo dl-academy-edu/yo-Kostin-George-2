@@ -1,180 +1,180 @@
 .banner {
-	background: #EEE4DB;
-	margin-top: 129px;
+  background: #EEE4DB;
+  margin-top: 129px;
 }
 
 .banner__content {
-	display: flex;
+  display: flex;
 }
 
 .banner__list-item {
-	display: flex;
-	align-items: center;
-	padding-top: 17px;
-	padding-left: 28px;
-	row-gap: 11px;
+  display: flex;
+  align-items: center;
+  padding-top: 17px;
+  padding-left: 28px;
+  row-gap: 11px;
 }
 
 .banner__text {
-	padding-top: 89px;
-	padding-left: 71px;
+  padding-top: 89px;
+  padding-left: 71px;
 }
 
 .banner__title {
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 110%;
-	padding-bottom: 20px;
-	color: #1E0606;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 110%;
+  padding-bottom: 20px;
+  color: #1E0606;
 }
 
 .banner__developer {
-	font-family: 'Crimson Text';
-	font-style: italic;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 26px;
-	padding-bottom: 20px;
-	color: #1E0606;
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  padding-bottom: 20px;
+  color: #1E0606;
 }
 
 .banner__btn {
-	margin-bottom: 89px;
+  margin-bottom: 89px;
 }
 
 .banner__offer {
-	font-style: normal;
-	font-weight: 700;
-	font-size: 12px;
-	line-height: 16px;
-	padding: 11px 364px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	background: #C29974;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 11px 364px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #C29974;
 }
 
 .products__title {
-	margin-top: 90px;
-	padding-bottom: 30px;
+  margin-top: 90px;
+  padding-bottom: 30px;
 }
 
 .products__list {
-	display: flex;
-	align-items: stretch;
+  display: flex;
+  align-items: stretch;
 }
 
 .product_aside {
-	display: flex;
-	margin-top: 30px;
-	column-gap: 30px;
+  display: flex;
+  margin-top: 30px;
+  column-gap: 30px;
 }
 
 .products__desc {
-	max-width: 580px;
+  max-width: 580px;
 }
 
 .products__list-item {
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 32px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .products__list-img {
-	background: #DBE4DB;
+  background: #DBE4DB;
 }
 
 .delivery {
-	display: flex;
-	margin-top: 90px;
+  display: flex;
+  margin-top: 90px;
 }
 
 .delivery__img {
-	width: 480px;
-	height: 559px;
+  width: 480px;
+  height: 559px;
 }
 
 .delivery__nav {
-	display: flex;
-	align-items: start;
-	flex-direction: column;
-	margin-left: 121px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 121px;
 }
 
 .delivery__nav-title {
-	padding-top: 30px;
-	margin-bottom: 17px;
+  padding-top: 30px;
+  margin-bottom: 17px;
 }
 
 .delivery__nav-btn {
-	font-family: 'Crimson Text';
-	font-style: italic;
-	font-weight: 400;
-	font-size: 26px;
-	line-height: 34px;
-	color: #1E0606;
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+  color: #1E0606;
 }
 
 .delivery__nav-desc {
-	max-width: 480px;
-	margin-bottom: 15px;
+  max-width: 480px;
+  margin-bottom: 15px;
 }
 
 .delivery__nav-link {
-	margin-top: 26px;
-	margin-bottom: 123px;
+  margin-top: 26px;
+  margin-bottom: 123px;
 }
 
 .awards {
-	margin-top: 90px;
-	margin-bottom: 90px;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 .awards__list {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .awards__list-item {
-	margin-right: 127px;
+  margin-right: 127px;
 }
 
 .information {
-	display: flex;
-	margin-bottom: 50px;
+  display: flex;
+  margin-bottom: 50px;
 }
 
 .information__design {
-	margin-right: 57px;
-	margin-left: 30px;
+  margin-right: 57px;
+  margin-left: 30px;
 }
 
 .information__design-title {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .information__design-desc {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .information__design-link {
-	display: flex;
-	max-width: max-content;
-	margin-top: 20px;
-	margin-bottom: 132px;
+  display: flex;
+  max-width: max-content;
+  margin-top: 20px;
+  margin-bottom: 132px;
 }
 
 .information__contacts-title {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .information__contacts-desc {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
