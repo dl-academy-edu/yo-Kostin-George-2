@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-	font-family: 'Open Sans';
+  font-family: 'Open Sans';
 }
 
 a {
@@ -58,8 +58,8 @@ fieldset {
   font-size: 20px;
   line-height: 26px;
   pointer-events: none;
-	cursor: default;
-	color: #999;
+  cursor: default;
+  color: #999;
 }
 
 .other_title {
@@ -73,15 +73,15 @@ fieldset {
 }
 
 .btn {
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 22px;
-	padding: 9px 22px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 9px 22px;
   min-width: max-content;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	background: #000000;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #000000;
 }
 
 .txt {
@@ -166,11 +166,11 @@ fieldset {
 }
 
 .footer__nav-list-link {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 22px;
-	color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
 }
 
 .footer__nav-list-img {
