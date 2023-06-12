@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/blog.css">
-    <title>Blog</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact</title>
 </head>
 <body>
     <header class="header container">
@@ -25,7 +25,44 @@
         </ul>
     </header>
     <main>
-
+        <div class="headline container">
+            <h1 class="headline__title first_title">Contact  Us</h1>
+            <div class="headline__control">
+                <a href="../index.html" class="headline__control-link location">Home</a>
+                <img src="../img/Right.png" alt="" class="headline__control-img">
+                <a href="./contact.html" class="headline__control-link location_inactive">Contact us</a>
+            </div>
+        </div>
+        <div class="contact container">
+            <form action="#" class="contact__form">
+                <div class="contact__form-inner">
+                    <label for="email" class="contact__form-label">Name</label>
+                    <input type="email" id="email" placeholder="Ivan Ivanov" class="contact__form-input contact__form-input_name">
+                </div>
+                <div class="contact__form-wrap">
+                    <div class="contact__form-inner">
+                        <label for="name" class="contact__form-label">Phone</label>
+                        <input type="tel" id="phone" class="contact__form-input contact__form-input_text">
+                    </div>
+                    <div class="contact__form-inner">
+                        <label for="phone" class="contact__form-label">Email</label>
+                        <input type="email" id="email" class="contact__form-input contact__form-input_text">
+                    </div>
+                </div>
+                <label for="message" class="contact__form-label">Message</label>
+                <textarea name="" id="message" cols="30" rows="10" class="contact__form-input contact__form-textarea"></textarea>
+                <div class="contact__form-checkbox">     
+                    <input type="checkbox" class="contact__form-check" id="Consent">              
+                    <label for="Consent" class="contact__form-label consent__label">By clicking on the button, you consent to the processing of your personal data</label>
+                </div>
+                <button class="contact__form-btn btn" type="submit">SUBMIT</button>
+            </form>
+            <div class="contact__wrap">
+                <p class="contact__desc txt">Our support team are on-hand to assist with any issues you are experiencing.</p>
+                <p class="contact__desc txt">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+                <p class="contact__desc-lg">An expert is waiting to help you!</p>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <section class="footer__nav container">

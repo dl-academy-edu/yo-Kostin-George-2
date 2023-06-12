@@ -1,18 +1,6 @@
-.products__title {
-  margin-bottom: 15px;
-}
-
-.products__control {
+.product__control {
 	display: flex;
-	align-self: center;
-}
-
-.products__control-link {
-	padding-right: 20px;
-}
-
-.products__control-img {
-	padding-right: 20px;
+	column-gap: 20px;
 }
 
 .products__list {

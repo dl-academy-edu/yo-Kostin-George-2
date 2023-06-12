@@ -8,8 +8,8 @@
 a {
   text-decoration: none;
 }
-
-button {
+button,
+fieldset {
   border: none;
 }
 
@@ -37,6 +37,7 @@ button {
   font-weight: 700;
   font-size: 40px;
   line-height: 49px;
+  padding-bottom: 15px;
   text-transform: uppercase;
   color: #1E0606;
 }
@@ -48,6 +49,17 @@ button {
   font-size: 20px;
   line-height: 26px;
   color: #1E0606;
+}
+
+.location_inactive {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  pointer-events: none;
+	cursor: default;
+	color: #999;
 }
 
 .other_title {

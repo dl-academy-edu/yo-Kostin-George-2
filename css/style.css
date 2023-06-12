@@ -8,6 +8,7 @@
 }
 
 .banner__list-item {
+	display: flex;
 	align-items: center;
 	padding-top: 17px;
 	padding-left: 28px;
@@ -96,7 +97,8 @@
 }
 
 .delivery__img {
-	max-height: max-content;
+	width: 480px;
+	height: 559px;
 }
 
 .delivery__nav {
@@ -117,7 +119,6 @@
 	font-weight: 400;
 	font-size: 26px;
 	line-height: 34px;
-	-bottom: 20px;
 	color: #1E0606;
 }
 
