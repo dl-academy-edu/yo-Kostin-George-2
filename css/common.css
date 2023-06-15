@@ -159,6 +159,30 @@ fieldset {
   margin-bottom: 15px;
 }
 
+.footer__nav-input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  background: #666666;
+}
+
+.footer__nav-input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  color: #EBEBEB;
+}
+
+.footer__nav-list-btn {
+  position: relative;
+  top: 1px;
+  right: 4px;
+}
+
 .social {
   display: inline-flex;
   column-gap: 10px;

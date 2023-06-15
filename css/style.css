@@ -15,6 +15,12 @@
   row-gap: 11px;
 }
 
+.banner__list-btn {
+  width: 31px;
+  height: 3px;
+  background: #D6CAC2;
+}
+
 .banner__text {
   padding-top: 89px;
   padding-left: 71px;
