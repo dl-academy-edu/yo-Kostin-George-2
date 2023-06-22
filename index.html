@@ -25,7 +25,7 @@
             Тег audio не поддерживается вашим браузером...
         </audio>
         <ul class="header__list header__list">
-            <li class="header__list-item undotted"><button type="button" class="header__list-btn"></button><img src="./img/search.png" alt="" class="header__list-img_search"></li>
+            <li class="header__list-item undotted"><button type="button" title="Search button" class="header__list-btn"></button><img src="./img/search.png" alt="" class="header__list-img_search"></li>
             <li class="header__list-item undotted"><a href="./pages/contact.html" class="header__list-link_contact">Contact  Us</a></li>
         </ul>
     </header>
@@ -34,15 +34,15 @@
             <div class="banner__content">
                 <ul class="banner__list">
                     <li class="banner__list-item undotted"><img src="./img/01.png" alt="" class="banner__list-img"></li>
-                    <li class="banner__list-item undotted"><button type="button" class="banner__list-btn"></button></li>
-                    <li class="banner__list-item undotted"><button type="button" class="banner__list-btn"></button></li>
-                    <li class="banner__list-item undotted"><button type="button" class="banner__list-btn"></button></li>
-                    <li class="banner__list-item undotted"><button type="button" class="banner__list-btn"></button></li>
+                    <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
+                    <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
+                    <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
+                    <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
                 </ul>
                 <div class="banner__text">
                     <h1 class="banner__title">THE OOH NOO COLLECTION</h1>
                     <p class="banner__developer">Designed in Slovenia</p>
-                    <button type="button" class="banner__btn btn">EXPLORE NOW</button>
+                    <button type="button" class="banner__btn btn btn-js">EXPLORE NOW</button>
                 </div>
                 <img src="./img/banner.png" alt="" class="banner__img">
             </div>
@@ -55,14 +55,12 @@
             <ul class="products__list">
                 <li class="products__list-item undotted"><img src="./img/apparel_kids.png" alt="" class="products__list-img">APPAREL KIDS</li>
                 <li class="products__list-item undotted"><img src="./img/H_shop.png" alt="" class="products__list-img">HOLIDAY SHOP</li>
-                <li class="products__list-item undotted"><img src="./img/toy.png" alt="" class="products__list-img">TOYS</li>
+                <li class="products__list-item undotted"><a href="./pages/toys.html"><img src="./img/toy.png" alt="" class="products__list-img"></a></li>
                 <li class="products__list-item undotted"><img src="./img/acces.png" alt="" class="products__list-img">ACCESSORIES</li> 
             </ul>
             <div class="product_aside">
-                <button type="button" class="products__btn"></button>
-                <img src="./img/Left.png" alt="" class="products__btn-img">
-                <button type="button" class="products__btn"></button>
-                <img src="./img/Right.png" alt="" class="products__btn-img">
+                <button type="button" title="switching information to the left" class="products__btn-left">.</button>
+                <button type="button" title="switching information to the right" class="products__btn-right">.</button>
                 <p class="products__desc txt">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
             </div>
         </section>
@@ -88,16 +86,20 @@
             </ul>
         </section>
         <section class="information container">
-            <div class="information__design">
-                <h2 class="information__design-title other_title">Design Life Kids</h2>
-                <p class="information__design-desc">About Us</p>
-                <p class="information__design-desc txt">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                <a href="#" class="information__design-link btn">buy now</a>
+            <div class="information__design-wrap">
+                <div class="information__design">
+                    <h2 class="information__design-title other_title">Design Life Kids</h2>
+                    <p class="information__design-desc">About Us</p>
+                    <p class="information__design-desc txt">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                    <a href="#" class="information__design-link btn">buy now</a>
+                </div>
             </div>
-            <div class="information__contacts">
-                <h2 class="information__contacts-title other_title">Contacts</h2>
-                <p class="information__contacts-desc txt">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.536972462762!2d49.28776367768147!3d53.51246626227972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879a82611632d%3A0xb18d94ffcf91e387!2sDL%20Academy!5e0!3m2!1sru!2sru!4v1686043105493!5m2!1sru!2sru" width="483" height="196" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="information__contacts-wrap">
+                <div class="information__contacts">
+                    <h2 class="information__contacts-title other_title">Contacts</h2>
+                    <p class="information__contacts-desc txt">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                    <iframe title="Our location on the map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.536972462762!2d49.28776367768147!3d53.51246626227972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879a82611632d%3A0xb18d94ffcf91e387!2sDL%20Academy!5e0!3m2!1sru!2sru!4v1686043105493!5m2!1sru!2sru" width="483" height="196" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </section>
     </main>
@@ -145,6 +147,33 @@
                 <li class="more__list-item undotted">Web Design — Direct Line Development</li>
             </ul>
         </section>
-    </footer> 
+    </footer>
+    <div class="overlay popup-js">
+        <form action="#" class="contact__form">
+            <div class="contact__form-inner">
+                <label for="name" class="contact__form-label">Name</label>
+                <input type="text" id="name" class="contact__form-input contact__form-input_name">
+            </div>
+            <div class="contact__form-wrap">
+                <div class="contact__form-inner">
+                    <label for="name" class="contact__form-label">Phone</label>
+                    <input type="tel" id="phone" class="contact__form-input contact__form-input_text">
+                </div>
+                <div class="contact__form-inner">
+                    <label for="phone" class="contact__form-label">Email</label>
+                    <input type="email" id="email" class="contact__form-input contact__form-input_text">
+                </div>
+            </div>
+            <label for="message" class="contact__form-label">Message</label>
+            <textarea id="message" cols="30" rows="10" class="contact__form-input contact__form-textarea"></textarea>
+            <div class="contact__form-checkbox">     
+                <input type="checkbox" class="contact__form-check" id="Consent">              
+                <label for="Consent" class="contact__form-label consent__label">By clicking on the button, you consent to the processing of your personal data</label>
+            </div>
+            <button class="contact__form-btn btn" type="submit">SUBMIT</button>
+            <button class="btn__close btn__close-js"></button>
+        </form>
+    </div>
+<script src="./js/index.js"></script>
 </body>
 </html>
