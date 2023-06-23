@@ -1,6 +1,12 @@
 .product__control {
   display: flex;
+  align-items: center;
   column-gap: 20px;
+}
+
+.products__control-img {
+  width: 8px;
+  height: 12px;
 }
 
 .products__list {

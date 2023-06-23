@@ -1,6 +1,12 @@
 .headline__control {
   display: flex;
+  align-items: center;
   column-gap: 20px;
+}
+
+.headline__control-img {
+  width: 8px;
+  height: 12px;
 }
 
 .contact {
@@ -39,7 +45,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  padding-left: 20px;
   color: #1E0606;
 }
 
@@ -58,6 +63,7 @@
 }
 
 .contact__form-input {
+  padding-left: 20px;
   background: #FFFFFF;
   border: 2px solid rgba(0, 0, 0, 0.5);
 }
@@ -68,6 +74,7 @@
 }
 
 .contact__form-textarea {
+  padding-top: 10px;
   width: 600px;
   height: 150px;
   margin-bottom: 20px;
