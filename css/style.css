@@ -5,6 +5,7 @@
 
 .banner__content {
   display: flex;
+  position: relative;
 }
 
 .banner__list-item {
@@ -21,6 +22,14 @@
   background: #D6CAC2;
 }
 
+.banner__list-btn:hover {
+  background: rgba(114, 95, 91, 1);
+}
+
+.banner__list-btn:active {
+  background: rgba(30, 6, 6, 0.6);
+}
+
 .banner__text {
   padding-top: 89px;
   padding-left: 71px;
@@ -34,6 +43,7 @@
   line-height: 110%;
   padding-bottom: 20px;
   color: #1E0606;
+  max-width: 307px;
 }
 
 .banner__developer {
@@ -60,6 +70,12 @@
   text-transform: uppercase;
   color: #FFFFFF;
   background: #C29974;
+}
+
+.banner__img {
+  position: absolute;
+  top: -89px;
+  left: 450px;
 }
 
 .contact__form {
@@ -192,7 +208,7 @@
 
 .products__list {
   display: flex;
-  align-items: stretch;
+  column-gap: 20px;
 }
 
 .products__desc {
@@ -200,6 +216,15 @@
 }
 
 .products__list-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products__list-link {
+  position: absolute;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -208,6 +233,19 @@
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.products__list-link:hover {
+  text-decoration: underline;
+}
+
+.products__list-link:active {
+  text-decoration: underline;
+}
+
+
+.products__list-img {
+  background: #DBE4DB;
 }
 
 .product_aside {

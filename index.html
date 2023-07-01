@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Index</title>
 </head>
 <body>
     <header class="header container">
-        <img src="./img/logo.png" alt="" class="header__logo">
+        <a href="./index.html"><img src="./img/logo.png" alt="" class="header__logo"></a>
         <ul class="header__list header__list--left">
             <li class="header__list-item undotted"><a href="./pages/blog.html" class="header__list-link">Blog</a></li>
             <li class="header__list-item undotted"><a href="./pages/catalog.html" class="header__list-link">Catalog</a></li>
@@ -53,10 +54,10 @@
         <section class="products container">
             <h2 class="products__title other_title">Category Products</h2>
             <ul class="products__list">
-                <li class="products__list-item undotted"><img src="./img/apparel_kids.png" alt="" class="products__list-img">APPAREL KIDS</li>
-                <li class="products__list-item undotted"><img src="./img/H_shop.png" alt="" class="products__list-img">HOLIDAY SHOP</li>
-                <li class="products__list-item undotted"><a href="./pages/toys.html"><img src="./img/toy.png" alt="" class="products__list-img"></a></li>
-                <li class="products__list-item undotted"><img src="./img/acces.png" alt="" class="products__list-img">ACCESSORIES</li> 
+                <li class="products__list-item undotted"><img src="./img/apparel_kids.png" alt="" class="products__list-img"><a class="products__list-link" href="">APPAREL KIDS</a></li>
+                <li class="products__list-item undotted"><img src="./img/H_shop.png" alt="" class="products__list-img"><a class="products__list-link" href="">HOLIDAY SHOP</a></li>
+                <li class="products__list-item undotted"><img src="./img/toy.png" alt="" class="products__list-img"><a class="products__list-link" href="./pages/toys.html">TOYS</a></li>
+                <li class="products__list-item undotted"><img src="./img/acces.png" alt="" class="products__list-img"><a class="products__list-link" href="">ACCESSORIES</a></li> 
             </ul>
             <div class="product_aside">
                 <button type="button" title="switching information to the left" class="products__btn-left">.</button>

@@ -85,6 +85,14 @@ fieldset {
   background: #000000;
 }
 
+.btn:hover {
+  background: rgba(194, 153, 116, 1);
+}
+
+.btn:active {
+  background: rgba(207, 175, 145, 1);
+}
+
 .txt {
   font-style: normal;
   font-weight: 400;
@@ -92,6 +100,18 @@ fieldset {
   line-height: 22px;
   color: #1E0606;
 }
+
+.headline__control {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.headline__control-img {
+  width: 8px;
+  height: 12px;
+}
+
 
 /* header */
 
@@ -102,8 +122,24 @@ fieldset {
   margin-bottom: 60px;
 }
 
+.header__list-item:hover {
+  opacity: 0.5;
+}
+
+.header__list-item:active {
+  opacity: 0.2;
+}
+
 .header__logo {
   margin-right: 60px;
+}
+
+.header__logo:hover {
+  opacity: 50%;
+}
+
+.header__logo:active {
+  opacity: 20%;
 }
 
 .header__list {
@@ -153,6 +189,11 @@ fieldset {
 }
 
 .footer__nav-list-title {
+  color: #AAA;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   margin-bottom: 23px;
 }
 
@@ -196,6 +237,14 @@ fieldset {
   font-size: 16px;
   line-height: 22px;
   color: #FFFFFF;
+}
+
+.footer__nav-list-link:hover {
+  opacity: 0.5;
+}
+
+.footer__nav-list-link:active {
+  opacity: 0.2;
 }
 
 .footer__nav-list-img {
