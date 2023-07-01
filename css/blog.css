@@ -1,98 +1,98 @@
 .posts {
-	margin-top: 50px;
-	margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .posts__list {
-	display: flex;
-	flex-wrap: wrap;
-	column-gap: 20px;
-	row-gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 15px;
 }
 
 .posts__list-item {
-	max-width: 380px;
+  max-width: 380px;
 }
 
 .post__list-date{
-	color: #818181;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	margin-top: 20px;
-	margin-bottom: 7px;
+  color: #818181;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 7px;
 }
 
 .posts__list-title {
-	font-size: 24px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 31px;
-	margin-bottom: 15px;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  margin-bottom: 15px;
 }
 
 .posts__list-title:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .posts__list-title:active {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .pages {
-	display: flex;
-	position: relative;
-	align-items: center;
-	margin-bottom: 60px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
 .pages__wrap {
-	display: flex;
-	position: absolute;
-	left: 40%;
-	column-gap: 64px;
+  display: flex;
+  position: absolute;
+  left: 40%;
+  column-gap: 64px;
 }
 
 .pages__btn {
-	width: 18px;
-	height: 30px;
-	background-color: #fff;
+  width: 18px;
+  height: 30px;
+  background-color: #fff;
 }
 
 .pages__btn:hover {
-	color: #C29974B2;
+  color: #C29974B2;
 }
 
 .pages__btn:active {
-	color:#C29974B2;
-	opacity: 0.7;
+  color:#C29974B2;
+  opacity: 0.7;
 }
 
 .pages__btn-left {
-	background-image: url(../img/VectorL.png);
+  background-image: url(../img/VectorL.png);
 }
 
 .pages__btn-right {
-	position: absolute;
-	left: 100%;
-	background-image: url(../img/VectorR.png);
+  position: absolute;
+  left: 100%;
+  background-image: url(../img/VectorR.png);
 }
 
 .pages__numb {
-	font-size: 16px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	text-transform: uppercase;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .pages__numb:hover {
-	color: rgba(170, 170, 170, 1);
+  color: rgba(170, 170, 170, 1);
 }
 
 .pages__numb:active {
-	color: rgba(194, 153, 116, 1);
+  color: rgba(194, 153, 116, 1);
 }
