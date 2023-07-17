@@ -26,7 +26,84 @@
         </ul>
     </header>
     <main>
-
+        <section class="headline container">
+            <h1 class="headline__title first_title">Toy for kids</h1>
+            <div class="headline__control">
+                <a href="../index.html" class="headline__control-link location">Home</a>
+                <img src="../img/Right.png" alt="" class="headline__control-img">
+                <a href="./catalog.html" class="headline__control-link location">Catalog</a>
+                <img src="../img/Right.png" alt="" class="headline__control-img">
+                <a href="./contact.html" class="headline__control-link location_inactive">Toys</a>
+            </div>
+        </section>
+        <section class="inputs">
+            <form action="#" class="inputs__form container">
+                <fieldset class="inputs__form-cost">
+                    <legend class="inputs__form-legend">Cost</legend>
+                    <input type="range" min="0" max="500" value="10" name="range" step="1">
+                    <div class="inputs__form-value">
+                        <p class="inputs__form-label">0</p>
+                        <p class="inputs__form-label">500</p>
+                    </div>
+                </fieldset>
+                <fieldset class="inputs__form-color">
+                    <legend class="inputs__form-legend">Color</legend>
+                    <div class="inputs__form-checkbox">     
+                        <input type="checkbox" class="inputs__form-check" id="Black">              
+                        <label for="Black" class="inputs__form-label inputs__label">Black</label>
+                    </div> 
+                    <div class="inputs__form-checkbox">
+                        <input type="checkbox" class="inputs__form-check" id="Blue">
+                        <label for="Blue" class="inputs__form-label inputs__label">Blue</label>
+                    </div>
+                    <div class="inputs__form-checkbox">
+                        <input type="checkbox" class="inputs__form-check" id="Green">
+                        <label for="Green" class="inputs__form-label inputs__label">Green</label>
+                    </div>
+                    <div class="inputs__form-checkbox">
+                        <input type="checkbox" class="inputs__form-check" id="White">
+                        <label for="White" class="inputs__form-label inputs__label">White</label>
+                    </div>
+                </fieldset>
+                <fieldset class="inputs__form-delivery">
+                    <legend class="inputs__form-legend">Delivery</legend>
+                    <input type="radio" id="free" name="delivery">
+                    <label for="free" class="inputs__form-label">Free shipping</label>
+                    <input type="radio" id="fast" name="delivery">
+                    <label for="fast" class="inputs__form-label">Fast shipping</label>
+                </fieldset>
+                <fieldset class="inputs__form-amount">
+                    <legend class="inputs__form-legend">Amount</legend>
+                    <input type="radio" id="min" name="amount" class="amount__input">
+                    <label for="min" class="inputs__form-label amount__input--label">0-5</label>
+                    <input type="radio" id="average" name="amount" class="amount__input">
+                    <label for="average" class="inputs__form-label amount__input--label">10-20</label>
+                    <input type="radio" id="max" name="amount" class="amount__input">
+                    <label for="max" class="inputs__form-label amount__input--label">20-50</label>
+                </fieldset>
+                <button type="submit" class="inputs__form-btn btn">Apply</button>
+            </form>
+        </section>
+        <section class="assortment container">
+            <ul class="assortment__list undotted">
+                <li class="assortment__list-item"><img class="assortment__list-img" src="../img/sharky.png" alt=""><p class="assortment__list-txt">SHARKY BEAN BAG CHAIR COVER</p><p class="assortment__list-price">$60.00 USD</p></li>
+                <li class="assortment__list-item"><img class="assortment__list-img" src="../img/brass.png" alt=""><p class="assortment__list-txt">BRASS DECO FRAMES</p><p class="assortment__list-price">$66.00 USD</p></li>
+                <li class="assortment__list-item"><img class="assortment__list-img" src="../img/cibo.png" alt=""><p class="assortment__list-txt">CIBO FULL APRON</p><p class="assortment__list-price">$60.00 USD</p></li>
+                <li class="assortment__list-item"><img class="assortment__list-img" src="../img/gumballmachine.png" alt=""><p class="assortment__list-txt">GATCHA GATCHA GUMBALL MACHINE</p><p class="assortment__list-price">$56.00 USD</p></li>
+                <li class="assortment__list-item"><img class="assortment__list-img" src="../img/candle.png" alt=""><p class="assortment__list-txt">CHRISTMAS ADVENT SCENTED CANDLE</p><p class="assortment__list-price">$29.00 USD</p></li>
+                <li class="assortment__list-item"><img class="assortment__list-img" src="../img/tangle.png" alt=""><p class="assortment__list-txt">TANGLE SPINNING TEA LIGHT</p><p class="assortment__list-price">$56.00 USD</p></li>
+            </ul>
+        </section>
+        <div class="pages container">
+            <button class="pages__btn-left pages__btn"></button>
+            <div class="pages__wrap">
+                <p class="pages__numb">1</p>
+                <p class="pages__numb">2</p>
+                <p class="pages__numb">3</p>
+                <p class="pages__numb">4</p>
+            </div>
+            <button class="pages__btn-right pages__btn"></button>
+        </div>
     </main>
     <footer class="footer">
         <section class="footer__nav container">
@@ -67,7 +144,21 @@
         <section class="more container">
             <img src="../img/long_line.png" alt="">
             <ul class="more__list">
-                <li class="more__list-item undotted"><h3 class="more__list-title">Company Rating</h3></li>
+                <li class="more__list-item undotted">
+                    <h3 class="more__list-title">Company Rating</h3>
+                    <fieldset class="more__list-delivery">
+                        <input type="radio" id="star" name="rating">
+                        <label for="star" class="more__list-label">★</label>
+                        <input type="radio" id="star" name="rating">
+                        <label for="star" class="more__list-label">★</label>
+                        <input type="radio" id="star" name="rating">
+                        <label for="star" class="more__list-label">★</label>
+                        <input type="radio" id="star" name="rating">
+                        <label for="star" class="more__list-label">★</label>
+                        <input type="radio" id="star" name="rating">
+                        <label for="star" class="more__list-label">★</label>
+                    </fieldset>
+                </li>
                 <li class="more__list-item undotted">Copyright © 2018 Dlk • Design Life Kids</li>
                 <li class="more__list-item undotted">Web Design — Direct Line Development</li>
             </ul>

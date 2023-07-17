@@ -71,28 +71,40 @@
 }
 
 .pages__btn-left {
-  background-image: url(../img/VectorL.png);
+  background-image: url(../img/PageBtn.png);
+  transform: scaleX(-1);
+  transform-origin: center;
+  transform-box: fill-box;;
+}
+
+.pages__btn-left:hover {
+  background-image: url(../img/PageBtn_hover.png);
+  transform: scaleX(-1);
+  transform-origin: center;
+  transform-box: fill-box;;
+}
+
+.pages__btn-left:active {
+  background-image: url(../img/PageBtn_active.png);
+  transform: scaleX(-1);
+  transform-origin: center;
+  transform-box: fill-box;;
 }
 
 .pages__btn-right {
   position: absolute;
   left: 100%;
-  background-image: url(../img/VectorR.png);
+  background-image: url(../img/PageBtn.png);
 }
 
-.pages__numb {
-  font-size: 16px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
+.pages__btn-right:hover {
+  position: absolute;
+  left: 100%;
+  background-image: url(../img/PageBtn_hover.png);
 }
 
-.pages__numb:hover {
-  color: rgba(170, 170, 170, 1);
-}
-
-.pages__numb:active {
-  color: rgba(194, 153, 116, 1);
+.pages__btn-right:active {
+  position: absolute;
+  left: 100%;
+  background-image: url(../img/PageBtn_active.png);
 }
