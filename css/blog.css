@@ -108,3 +108,20 @@
   left: 100%;
   background-image: url(../img/PageBtn_active.png);
 }
+
+.pages__numb {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.pages__numb:hover {
+  color: rgba(170, 170, 170, 1);
+}
+
+.pages__numb:active {
+  color: rgba(194, 153, 116, 1);
+}
