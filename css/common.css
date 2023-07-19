@@ -37,8 +37,7 @@ fieldset {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 49px;
-  padding-bottom: 15px;
+  line-height: 40px;
   text-transform: uppercase;
   color: #1E0606;
 }
@@ -67,7 +66,7 @@ fieldset {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 39px;
   line-height: 46px;
   text-transform: uppercase;
   color: #1E0606;
@@ -103,8 +102,7 @@ fieldset {
 
 .headline__control {
   display: flex;
-  align-items: center;
-  column-gap: 20px;
+  column-gap: 21px;
 }
 
 .headline__control-img {
@@ -148,7 +146,7 @@ fieldset {
 }
 
 .header__list--left {
-  margin-right: 374px;
+  margin-right: auto;
 }
 
 
@@ -256,7 +254,6 @@ fieldset {
 
 .more__list {
   display: flex;
-  column-gap: 137px;
   padding-top: 15px;
   padding-bottom: 120px;
 }
@@ -273,11 +270,12 @@ fieldset {
 .more__list-item {
   display: flex;
   column-gap: 5px;
+  padding-right: 161px;
 }
 
 .more__list-raiting {
   position: relative;
-  font-size: 20px;
+  font-size: 21px;
   display: inline-block;
 }
 

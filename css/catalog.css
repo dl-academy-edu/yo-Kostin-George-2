@@ -15,7 +15,7 @@
   align-items: center;
   column-gap: 20px;
   row-gap: 23px;
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 .products__list-item {
@@ -27,7 +27,7 @@
 }
 
 .products__list-item:nth-child(4n) {
-  margin-left: 210px;
+  margin-left: 200px;
 }
 
 .products__list-link {
@@ -37,7 +37,7 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 32px;
-  padding: 20px;
+  padding: 45px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -57,7 +57,9 @@
 }
 
 .description {
-  margin: 55px 310px;
+  margin-left: 200px;
+  margin-top: 54px;
+  margin-bottom: 40px;
   max-width: 680px;
 }
 

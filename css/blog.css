@@ -1,13 +1,13 @@
 .posts {
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 43px;
+  margin-bottom: 51px;
 }
 
 .posts__list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 20px;
-  row-gap: 15px;
+  row-gap: 33px;
 }
 
 .posts__list-item {
@@ -25,12 +25,13 @@
 }
 
 .posts__list-title {
-  font-size: 24px;
+  color: var(--black, #1E0606);
   font-family: Montserrat;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: 31px;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .posts__list-title:hover {
@@ -39,6 +40,14 @@
 
 .posts__list-title:active {
   text-decoration: underline;
+}
+
+.post__list-text {
+  color: var(--black, #1E0606);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .pages {
@@ -51,8 +60,8 @@
 .pages__wrap {
   display: flex;
   position: absolute;
-  left: 40%;
-  column-gap: 64px;
+  left: 474px;
+  column-gap: 66px;
 }
 
 .pages__btn {
@@ -93,19 +102,19 @@
 
 .pages__btn-right {
   position: absolute;
-  left: 100%;
+  right: 0;
   background-image: url(../img/PageBtn.png);
 }
 
 .pages__btn-right:hover {
   position: absolute;
-  left: 100%;
+  right: 0;
   background-image: url(../img/PageBtn_hover.png);
 }
 
 .pages__btn-right:active {
   position: absolute;
-  left: 100%;
+  right: 0;
   background-image: url(../img/PageBtn_active.png);
 }
 
