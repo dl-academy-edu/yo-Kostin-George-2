@@ -230,6 +230,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #DBE4DB;
 }
 
 .products__list-link {
@@ -242,6 +243,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+  max-width: 150px;
 }
 
 .products__list-link:hover {
