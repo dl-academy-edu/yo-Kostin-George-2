@@ -78,7 +78,7 @@ fieldset {
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  padding: 9px 22px;
+  padding: 9px 25px;
   min-width: max-content;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -148,24 +148,26 @@ fieldset {
 }
 
 .header__list--left {
-  margin-right: auto;
+  margin-right: 374px;
 }
 
 
 .header__list-link {
+  color: var(--black, #1E0606);
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  color: #1E0606;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .header__list-link_contact {
+  color: var(--black, #1E0606);
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 19px;
-  color: #1E0606;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 /* footer */
@@ -185,20 +187,22 @@ fieldset {
 }
 
 .footer__nav-list {
-  margin-top: 100px;
+  padding-top: 100px;
+  column-gap: 10px;
 }
 
-.footer__nav-list-title {
+.footer__nav-list-item {
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+.footer__nav-list-title,
+.more__list-item_dir {
   color: #AAA;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 23px;
-}
-
-.footer__nav-list-item {
-  margin-bottom: 15px;
 }
 
 .footer__nav-input {
@@ -219,19 +223,22 @@ fieldset {
   color: #EBEBEB;
 }
 
-.footer__nav-list-btn {
+.footer__nav-list-form {
   position: relative;
-  top: 1px;
-  right: 4px;
 }
 
-.social {
-  display: inline-flex;
+.footer__nav-list-btn {
+  position: absolute;
+}
+
+.footer__nav-inner_social {
+  display: flex;
+  padding-top: 5px;
   column-gap: 10px;
-  padding-top: 25px;
 }
 
-.footer__nav-list-link {
+.footer__nav-list-link,
+.more__list-item {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -247,14 +254,11 @@ fieldset {
   opacity: 0.2;
 }
 
-.footer__nav-list-img {
-  padding-right: 10px;
-}
-
 .more__list {
   display: flex;
-  column-gap: 130px;
-  padding-bottom: 100px;
+  column-gap: 137px;
+  padding-top: 15px;
+  padding-bottom: 120px;
 }
 
 .more__list-title {
@@ -273,7 +277,7 @@ fieldset {
 
 .more__list-raiting {
   position: relative;
-  font-size: 25px;
+  font-size: 20px;
   display: inline-block;
 }
 

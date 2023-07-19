@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -33,22 +31,24 @@
     <main>
         <section class="banner container">
             <div class="banner__content">
-                <ul class="banner__list">
-                    <li class="banner__list-item undotted"><img src="./img/01.png" alt="" class="banner__list-img"></li>
-                    <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
-                    <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
-                    <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
-                    <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
-                </ul>
+                <div class="banner__wrap-list">
+                    <img src="./img/01.png" alt="" class="banner__list-img">
+                    <ul class="banner__list">
+                        <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
+                        <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
+                        <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
+                        <li class="banner__list-item undotted"><button type="button" title="Banner button" class="banner__list-btn"></button></li>
+                    </ul>
+                </div>
                 <div class="banner__text">
                     <h1 class="banner__title">THE OOH NOO COLLECTION</h1>
                     <p class="banner__developer">Designed in Slovenia</p>
                     <button type="button" class="banner__btn btn btn-js">EXPLORE NOW</button>
                 </div>
                 <img src="./img/banner.png" alt="" class="banner__img">
-            </div>
-            <div class="banner__offer">
-                <p class="banner__offer-text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+                <div class="banner__offer">
+                    <p class="banner__offer-text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+                </div>
             </div>
         </section>
         <section class="products container">
@@ -90,7 +90,7 @@
             <div class="information__design-wrap">
                 <div class="information__design">
                     <h2 class="information__design-title other_title">Design Life Kids</h2>
-                    <p class="information__design-desc">About Us</p>
+                    <p class="information__design-desc information__design-desc_about">About Us</p>
                     <p class="information__design-desc txt">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                     <a href="#" class="information__design-link btn">buy now</a>
                 </div>
@@ -126,7 +126,7 @@
                 <li class="footer__nav-list-item undotted"><a href="#" class="footer__nav-list-link">Privacy Policy</a></li>
                 <li class="footer__nav-list-item undotted"><a href="#" class="footer__nav-list-link">Search</a></li>
             </ul>
-            <ul class="footer__nav-list">
+            <ul class="footer__nav-list footer__nav-list_connect">
                 <li class="footer__nav-list-item undotted"><h3 class="footer__nav-list-title">Connect</h3></li>
                 <li class="footer__nav-list-item undotted"><img src="../img/Line.png" alt="" class="footer__nav-list-img"></li>
                 <li class="footer__nav-list-item undotted">
@@ -134,10 +134,14 @@
                         <input type="email" placeholder="Email" class="footer__nav-input">
                         <button type="submit" class="footer__nav-list-btn btn">Join</button>
                     </form>
-                <li class="footer__nav-list-item social undotted"><a href="#" class="footer__nav-list-link"><img src="../img/Facebook.png" alt="facebook" class="footer__nav-list-img"></a></li>
-                <li class="footer__nav-list-item social undotted"><a href="#" class="footer__nav-list-link"><img src="../img/Twitter.png" alt="twitter" class="footer__nav-list-img"></a></li>
-                <li class="footer__nav-list-item social undotted"><a href="#" class="footer__nav-list-link"><img src="../img/Pinterest.png" alt="pinterest" class="footer__nav-list-img"></a></li>
-                <li class="footer__nav-list-item social undotted"><a href="#" class="footer__nav-list-link"><img src="../img/Instagram.png" alt="insta" class="footer__nav-list-img"></a></li>
+                <li class="footer__nav-list-item undotted">
+                    <div class="footer__nav-inner_social">
+                        <a href="#" class="footer__nav-list-link"><img src="../img/Facebook.png" alt="facebook" class="footer__nav-list-img"></a>
+                        <a href="#" class="footer__nav-list-link"><img src="../img/Twitter.png" alt="twitter" class="footer__nav-list-img"></a>
+                        <a href="#" class="footer__nav-list-link"><img src="../img/Pinterest.png" alt="pinterest" class="footer__nav-list-img"></a>
+                        <a href="#" class="footer__nav-list-link"><img src="../img/Instagram.png" alt="insta" class="footer__nav-list-img"></a>
+                    </div>
+                </li>
             </ul>
         </section>
         <section class="more container">
@@ -161,7 +165,7 @@
                     </div>
                 </li>
                 <li class="more__list-item undotted">Copyright © 2018 Dlk • Design Life Kids</li>
-                <li class="more__list-item undotted">Web Design — Direct Line Development</li>
+                <li class="more__list-item_dir undotted">Web Design — Direct Line Development</li>
             </ul>
         </section>
     </footer>
