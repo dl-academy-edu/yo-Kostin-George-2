@@ -1,0 +1,136 @@
+.posts {
+  margin-top: 43px;
+  margin-bottom: 51px;
+}
+
+.posts__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 33px;
+}
+
+.posts__list-item {
+  max-width: 380px;
+}
+
+.post__list-date{
+  color: #818181;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.posts__list-title {
+  color: var(--black, #1E0606);
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  padding-bottom: 15px;
+}
+
+.posts__list-title:hover {
+  text-decoration: underline;
+}
+
+.posts__list-title:active {
+  text-decoration: underline;
+}
+
+.post__list-text {
+  color: var(--black, #1E0606);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pages {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.pages__wrap {
+  display: flex;
+  position: absolute;
+  left: 474px;
+  column-gap: 66px;
+}
+
+.pages__btn {
+  width: 18px;
+  height: 30px;
+  background-color: #fff;
+}
+
+.pages__btn:hover {
+  color: #C29974B2;
+}
+
+.pages__btn:active {
+  color:#C29974B2;
+  opacity: 0.7;
+}
+
+.pages__btn-left {
+  background-image: url(../img/PageBtn.png);
+  transform: scaleX(-1);
+  transform-origin: center;
+  transform-box: fill-box;;
+}
+
+.pages__btn-left:hover {
+  background-image: url(../img/PageBtn_hover.png);
+  transform: scaleX(-1);
+  transform-origin: center;
+  transform-box: fill-box;;
+}
+
+.pages__btn-left:active {
+  background-image: url(../img/PageBtn_active.png);
+  transform: scaleX(-1);
+  transform-origin: center;
+  transform-box: fill-box;;
+}
+
+.pages__btn-right {
+  position: absolute;
+  right: 0;
+  background-image: url(../img/PageBtn.png);
+}
+
+.pages__btn-right:hover {
+  position: absolute;
+  right: 0;
+  background-image: url(../img/PageBtn_hover.png);
+}
+
+.pages__btn-right:active {
+  position: absolute;
+  right: 0;
+  background-image: url(../img/PageBtn_active.png);
+}
+
+.pages__numb {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.pages__numb:hover {
+  color: rgba(170, 170, 170, 1);
+}
+
+.pages__numb:active {
+  color: rgba(194, 153, 116, 1);
+}
